@@ -296,6 +296,872 @@ public class MainActivity extends AppCompatActivity {
                             duck9.setVisibility(View.VISIBLE);
                         }
 
+                        
+                                   ScaleAnimation scaleAnimation = new ScaleAnimation(0.0f, 0.5f, 0.0f, 0.0f, Animation.RELATIVE_TO_SELF, .5f, Animation.RELATIVE_TO_SELF, .5f);
+                            scaleAnimation.setDuration(10);
+                            animation.addAnimation(fadeIn);
+
+                            if(duck.getVisibility() == View.VISIBLE) {
+                                duck.startAnimation(scaleAnimation);
+                                duck.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count==0){
+                                            count++;
+                                            score++;
+
+                                            if(resource.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck2.getVisibility()==View.VISIBLE){
+                                duck2.startAnimation(scaleAnimation);
+                                duck2.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count2==0){
+                                            count2++;
+                                            score++;
+                                            if(resource2.equals(R.drawable.bonusduck)) {
+                                                second += 5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck3.getVisibility()==View.VISIBLE){
+                                duck3.startAnimation(scaleAnimation);
+                                duck3.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count3==0){
+                                            count3++;
+                                            score++;
+                                            if(resource3.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck4.getVisibility()==View.VISIBLE){
+                                duck4.startAnimation(scaleAnimation);
+                                duck4.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count4==0){
+                                            count4++;
+                                            score++;
+                                            if(resource4.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck5.getVisibility()==View.VISIBLE){
+                                duck5.startAnimation(scaleAnimation);
+                                duck5.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count5==0){
+                                            count5++;
+                                            score++;
+                                            if(resource5.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck6.getVisibility()==View.VISIBLE){
+                                duck6.startAnimation(scaleAnimation);
+                                duck6.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count6==0){
+                                            count6++;
+                                            score++;
+                                            if(resource6.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck7.getVisibility()==View.VISIBLE){
+                                duck7.startAnimation(scaleAnimation);
+                                duck7.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count7==0){
+                                            count7++;
+                                            score++;
+                                            if(resource7.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck8.getVisibility()==View.VISIBLE){
+                                duck8.startAnimation(scaleAnimation);
+                                duck8.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count8==0){
+                                            count8++;
+                                            score++;
+                                            if(resource8.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+                            if(duck9.getVisibility()==View.VISIBLE){
+                                duck9.startAnimation(scaleAnimation);
+                                duck9.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count9==0){
+                                            count9++;
+                                            score++;
+                                            if(resource9.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+
+                                    }
+                                });
+                            }
+
+                            ScaleAnimation scaleAnimation2 = new ScaleAnimation(0.0f, 0.0f, 0.0f, 0.0f, Animation.RELATIVE_TO_SELF, .5f, Animation.RELATIVE_TO_SELF, .5f);
+                            scaleAnimation2.setDuration(10);
+                            if(duck.getVisibility() == View.VISIBLE) {
+                                duck.startAnimation(scaleAnimation2);
+                                duck.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count==0){
+                                            count++;
+                                            score++;
+                                            if(resource.equals(R.drawable.bonusduck)){
+                                                second+=5;
+
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck2.getVisibility()==View.VISIBLE){
+                                duck2.startAnimation(scaleAnimation2);
+                                duck2.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count2==0){
+                                            count2++;
+                                            score++;
+                                            if(resource2.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck3.getVisibility()==View.VISIBLE){
+                                duck3.startAnimation(scaleAnimation2);
+                                duck3.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count3==0){
+                                            count3++;
+                                            score++;
+                                            if(resource3.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck4.getVisibility()==View.VISIBLE){
+                                duck4.startAnimation(scaleAnimation2);
+                                duck4.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count4==0){
+                                            count4++;
+                                            score++;
+                                            if(resource4.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck5.getVisibility()==View.VISIBLE){
+                                duck5.startAnimation(scaleAnimation2);
+                                duck5.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count5==0){
+                                            count5++;
+                                            score++;
+                                            if(resource5.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck6.getVisibility()==View.VISIBLE){
+                                duck6.startAnimation(scaleAnimation2);
+                                duck6.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count6==0){
+                                            count6++;
+                                            score++;
+                                            if(resource6.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck7.getVisibility()==View.VISIBLE){
+                                duck7.startAnimation(scaleAnimation2);
+                                duck7.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count7==0){
+                                            count7++;
+                                            score++;
+                                            if(resource7.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+                                    }
+                                });
+                            };
+                            if(duck8.getVisibility()==View.VISIBLE){
+                                duck8.startAnimation(scaleAnimation2);
+                                duck8.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count8==0){
+                                            count8++;
+                                            score++;
+                                            if(resource8.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            if(duck9.getVisibility()==View.VISIBLE){
+                                duck9.startAnimation(scaleAnimation2);
+                                duck9.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        if(count9==0){
+                                            count9++;
+                                            score++;
+                                            if(resource9.equals(R.drawable.bonusduck)){
+                                                second+=5;
+                                            }
+                                        }
+
+                                        animation.addAnimation(fadeOut);
+
+                                    }
+                                });
+                            }
+                            animation.addAnimation(fadeOut);
+
+
+
+                    }
+                });
+
+                 count = 0;
+                 count2= 0;
+                 count3 = 0;
+                 count4 = 0;
+                 count5 = 0;
+                 count6 = 0;
+                 count7 = 0;
+                 count8 = 0;
+                 count9 = 0;
+                 second--;
+                timer.setText(second + " seconds");
+
+                if (second == 0) {
+                    num.setText("Total score: " + score);
+                    timer1.cancel();
+                }
+
+            }
+        };
+
+        Timer timer2 = new Timer();
+        TimerTask time1 = new TimerTask() {
+            @Override
+            public void run() {
+               int randNum = (int) (Math.random() * 9);
+               int randomNum2 = (int) (Math.random() * 10);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (randNum == 1) {
+                            if (randomNum2 == 1) {
+                                duck.setImageResource(R.drawable.bonusduck);
+                                duck.setTag(R.drawable.bonusduck);
+                                resource10 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource10 = 0;
+                            }
+                            duck.setVisibility(View.VISIBLE);
+
+                        }
+                        if (randNum == 2) {
+                            if (randomNum2 == 1) {
+                                duck2.setImageResource(R.drawable.bonusduck);
+                                duck2.setTag(R.drawable.bonusduck);
+                                resource11 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource11 = 0;
+                            }
+                            duck2.setVisibility(View.VISIBLE);
+                        }
+                        if (randNum == 3) {
+                            if (randomNum2 == 1) {
+                                duck3.setImageResource(R.drawable.bonusduck);
+                                duck3.setTag(R.drawable.bonusduck);
+                                resource12 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource12 =0;
+
+                            }
+                            duck3.setVisibility(View.VISIBLE);
+                        }
+                        if (randNum == 4) {
+                            if (randomNum2 == 1) {
+                                duck4.setImageResource(R.drawable.bonusduck);
+                                duck4.setTag(R.drawable.bonusduck);
+                                resource13 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource13 = 0;
+                            }
+                            duck4.setVisibility(View.VISIBLE);
+                        }
+                        if (randNum == 5) {
+                            if (randomNum2 == 1) {
+                                duck5.setImageResource(R.drawable.bonusduck);
+                                duck5.setTag(R.drawable.bonusduck);
+                                resource14 = R.drawable.bonusduck;
+                            }
+                            duck5.setVisibility(View.VISIBLE);
+                            resource14 = 0;
+                        }
+                        if (randNum == 6) {
+                            if (randomNum2 == 1) {
+                                duck6.setImageResource(R.drawable.bonusduck);
+                                duck6.setTag(R.drawable.bonusduck);
+                                resource15 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource15 = 0;
+                            }
+                            duck6.setVisibility(View.VISIBLE);
+
+                        }
+                        if (randNum == 7) {
+                            if (randomNum2 == 1) {
+                                duck7.setImageResource(R.drawable.bonusduck);
+                                duck7.setTag(R.drawable.bonusduck);
+                                resource16 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource16 = 0;
+                            }
+                            duck7.setVisibility(View.VISIBLE);
+                        }
+                        if (randNum == 8) {
+                            if (randomNum2 == 1) {
+                                duck8.setImageResource(R.drawable.bonusduck);
+                                duck8.setTag(R.drawable.bonusduck);
+                                resource17 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource17 = 0;
+                            }
+                            duck8.setVisibility(View.VISIBLE);
+
+                        }
+                        if (randNum == 9) {
+                            if (randomNum2 == 1) {
+                                duck9.setImageResource(R.drawable.bonusduck);
+                                duck9.setTag(R.drawable.bonusduck);
+                                resource18 = R.drawable.bonusduck;
+                            }
+                            else{
+                                resource18 = 0;
+                            }
+                            duck9.setVisibility(View.VISIBLE);
+                        }
+
+                        ScaleAnimation scaleAnimation = new ScaleAnimation(0.0f, 0.5f, 0.0f, 0.0f, Animation.RELATIVE_TO_SELF, .5f, Animation.RELATIVE_TO_SELF, .5f);
+                        scaleAnimation.setDuration(10);
+                        animation.addAnimation(fadeIn);
+
+                        if(duck.getVisibility() == View.VISIBLE) {
+                            duck.startAnimation(scaleAnimation);
+                            animation.addAnimation(fadeIn);
+                            duck.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count10==0){
+                                        count10++;
+                                        score++;
+                                        if(resource10.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck2.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+
+                            duck2.startAnimation(scaleAnimation);
+                            duck2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count11==0){
+                                        count11++;
+                                        score++;
+                                        if(resource11.equals(R.drawable.bonusduck)) {
+                                            second += 5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck3.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+
+                            duck3.startAnimation(scaleAnimation);
+                            duck3.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count12==0){
+                                        count12++;
+                                        score++;
+                                        if(resource12.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck4.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck4.startAnimation(scaleAnimation);
+                            duck4.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count13==0){
+                                        count13++;
+                                        score++;
+                                        if(resource13.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck5.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck5.startAnimation(scaleAnimation);
+                            duck5.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count14==0){
+                                        count14++;
+                                        score++;
+                                        if(resource14.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck6.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck6.startAnimation(scaleAnimation);
+                            duck6.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count15==0){
+                                        count15++;
+                                        score++;
+                                        if(resource15.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck7.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck7.startAnimation(scaleAnimation);
+                            duck7.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count16==0){
+                                        count16++;
+                                        score++;
+                                        if(resource16.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck8.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck8.startAnimation(scaleAnimation);
+                            duck8.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count17==0){
+                                        count17++;
+                                        score++;
+                                        if(resource17.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+                        if(duck9.getVisibility()==View.VISIBLE){
+                            animation.addAnimation(fadeIn);
+                            duck9.startAnimation(scaleAnimation);
+                            duck9.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count18==0){
+                                        count18++;
+                                        score++;
+                                        if(resource18.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+
+                                }
+                            });
+                        }
+
+                        ScaleAnimation scaleAnimation2 = new ScaleAnimation(0.0f, 0.0f, 0.0f, 0.0f, Animation.RELATIVE_TO_SELF, .5f, Animation.RELATIVE_TO_SELF, .5f);
+                        scaleAnimation2.setDuration(10);
+                        if(duck.getVisibility() == View.VISIBLE) {
+                            duck.startAnimation(scaleAnimation2);
+                            duck.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count10==0){
+                                        count10++;
+                                        score++;
+                                        if(resource10.equals(R.drawable.bonusduck)){
+                                            second+=5;
+
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck2.getVisibility()==View.VISIBLE){
+                            duck2.startAnimation(scaleAnimation2);
+                            duck2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count11==0){
+                                        count11++;
+                                        score++;
+                                        if(resource11.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck3.getVisibility()==View.VISIBLE){
+                            duck3.startAnimation(scaleAnimation2);
+                            duck3.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count12==0){
+                                        count12++;
+                                        score++;
+                                        if(resource12.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck4.getVisibility()==View.VISIBLE){
+                            duck4.startAnimation(scaleAnimation2);
+                            duck4.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count13==0){
+                                        count13++;
+                                        score++;
+                                        if(resource13.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck5.getVisibility()==View.VISIBLE){
+                            duck5.startAnimation(scaleAnimation2);
+                            duck5.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count14==0){
+                                        count14++;
+                                        score++;
+                                        if(resource14.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck6.getVisibility()==View.VISIBLE){
+                            duck6.startAnimation(scaleAnimation2);
+                            duck6.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count15==0){
+                                        count15++;
+                                        score++;
+                                        if(resource15.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck7.getVisibility()==View.VISIBLE){
+                            duck7.startAnimation(scaleAnimation2);
+                            duck7.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count16==0){
+                                        count16++;
+                                        score++;
+                                        if(resource16.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+                                }
+                            });
+                        };
+                        if(duck8.getVisibility()==View.VISIBLE){
+                            duck8.startAnimation(scaleAnimation2);
+                            duck8.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count17==0){
+                                        count17++;
+                                        score++;
+                                        if(resource17.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        if(duck9.getVisibility()==View.VISIBLE){
+                            duck9.startAnimation(scaleAnimation2);
+                            duck9.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    if(count18==0){
+                                        count18++;
+                                        score++;
+                                        if(resource18.equals(R.drawable.bonusduck)){
+                                            second+=5;
+                                        }
+                                    }
+
+                                    animation.addAnimation(fadeOut);
+
+                                }
+                            });
+                        }
+                        animation.addAnimation(fadeOut);
+
+                    }
+                });
+                if(duck.getVisibility() == View.VISIBLE) {
+                    duck.setVisibility(View.INVISIBLE);
+                }
+                if(duck2.getVisibility()==View.VISIBLE){
+                    duck2.setVisibility(View.INVISIBLE);
+                }
+                if(duck3.getVisibility()==View.VISIBLE){
+                    duck3.setVisibility(View.INVISIBLE);
+                }
+                if(duck4.getVisibility()==View.VISIBLE){
+                    duck4.setVisibility(View.INVISIBLE);
+                }
+                if(duck5.getVisibility()==View.VISIBLE){
+                    duck5.setVisibility(View.INVISIBLE);
+                }
+                if(duck6.getVisibility()==View.VISIBLE){
+                    duck6.setVisibility(View.INVISIBLE);
+                }
+                if(duck7.getVisibility()==View.VISIBLE){
+                    duck7.setVisibility(View.INVISIBLE);
+                }
+                if(duck8.getVisibility()==View.VISIBLE){
+                    duck8.setVisibility(View.INVISIBLE);
+                }
+                if(duck9.getVisibility()==View.VISIBLE){
+                    duck9.setVisibility(View.INVISIBLE);
+                }
+                count10 = 0;
+                count11= 0;
+                count12 = 0;
+                count13 = 0;
+                count14 = 0;
+                count15 = 0;
+                count16 = 0;
+                count17 = 0;
+                count18 = 0;
+
+                if (second == 0) {
+                    timer1.cancel();
+                    timer2.cancel();
+                }
+
+            }
+        };
+        timer1.schedule(time,5000,1000);
+        timer2.schedule(time1,5000,2000);
+    }
+}
+
 
 
     }
